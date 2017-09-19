@@ -4,4 +4,15 @@ C++ Win32 program that runs in the background. When F6 is pressed, the current t
 
 Appears as an icon in the notification area of the Windows taskbar (the tray.)
 
+To build in Visual C++:
+Clone folder to your local machine.
+In Visual Studio, select File/New/project from existing code.
+Select project Type Visual C++. Next.
+Enter folder location and Project name. Next.
+Defaults for everything else should work. Finish.
+
+Change Debug to Release.
+Build/Build Solution.
+
+In release folder, the \*exe file is a stand-alone executable, so double click to run, or add to your startup folder.
 
